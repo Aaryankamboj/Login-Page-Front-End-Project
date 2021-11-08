@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="https://kit.fontawesome.com/8b15fc1422.js" crossorigin="anonymous"></script>
+    <title>Login to AK tech & Co.</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+
+  <body>
+      <div class="container">
+          <h1>Log In</h1>
+          <div class="box">
+              <i class="fa fa-envelope"></i>
+              <input type="email" name="email" id="email" placeholder="Enter your email">
+          </div>
+          <div class="box">
+            <i class="fa fa-key"></i>
+              <input type="password" placeholder="Enter your password">
+          </div>
+          <button type="submit" class="btn">Sign In</button>
+      </div>
+  </body>
+  <script>
+      let btn=document.getElementsByClassName('btn');
+      function display() {
+          alert("You have been logged in successfully");
+      }
+  </script>
+</html>
